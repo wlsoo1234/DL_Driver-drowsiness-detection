@@ -1,9 +1,9 @@
-# %%
+
 import keras
 import cv2
 import time
 from utils.config import project_config as pj
-from core import drowsiness_detector
+from . import drowsiness_detector
 
 
 cap = cv2.VideoCapture(0)
@@ -51,3 +51,5 @@ while cap.isOpened():
 
 cap.release()
 cv2.destroyAllWindows()
+
+# %%

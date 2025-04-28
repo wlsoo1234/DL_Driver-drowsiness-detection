@@ -1,6 +1,6 @@
 import cv2
 from utils.config import project_config as pj
-from keras.utils import img_to_array
+from tensorflow.keras.utils import img_to_array
 import time
 import numpy as np
 from playsound import playsound
